@@ -1,0 +1,54 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #003366;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.subtitle {
+  font-size: 1em;
+  font-weight: normal;
+}
+nav a {
+  margin: 0 10px;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+main {
+  padding: 1em;
+}
+.profile-img, .gallery-img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+.intro {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
